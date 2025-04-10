@@ -1,0 +1,8 @@
+namespace MHZ_Tester.Shared.Services
+{
+    public interface IFormFactor
+    {
+        public string GetFormFactor();
+        public string GetPlatform();
+    }
+}

@@ -1,0 +1,10 @@
+﻿@page "/device"
+@using MHZ_Tester.Shared.ViewModels
+@inject DeviceStatusViewModel ViewModel
+
+<h3>🔌 기기 연결 상태</h3>
+
+<p>상태: <strong>@ViewModel.ConnectionStatus</strong></p>
+
+<button class="btn btn-primary" @onclick="ViewModel.Connect">연결</button>
+<button class="btn btn-secondary" @onclick="ViewModel.Disconnect">해제</button>
