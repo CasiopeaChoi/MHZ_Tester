@@ -11,5 +11,3 @@ for /d /r %%d in (bin,obj) do (
 )
 
 echo -------------------------------------------
-echo Done! Press any key to exit...
-pause >nul
